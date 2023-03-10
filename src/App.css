@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dadada;
+}
+
+.box {
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.box h1 {
+  text-align: center;
+  color: #da2535;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.add_task {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.add_task input {
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  padding-left: 1rem;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  outline: none;
+}
+
+
+.add_task button {
+  border: none;
+  font-size: 1rem;
+  background-color: #da2535;
+  color: #fff;
+  width: 30%;
+  padding: .845rem 1.25rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #da2535;
+  font-weight: 600;
+  font-family: 'Poppins';
+}
+
+.container_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.listItem {
+  background-color: #fff;
+  color: #da2535;
+  list-style-type: none;
+  margin-top: .825rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 1rem;
+}
+
+.listItemComplete {
+  text-decoration: line-through;
+  background-color: #da2535;
+  color: #fff;
+  list-style-type: none;
+  margin-top: .825rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 1rem;
+}
+
+.container_list ul li span {
+  display: flex;
+  gap: 1rem;
+}
+
+.container_list ul li i {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
