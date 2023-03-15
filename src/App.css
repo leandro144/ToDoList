@@ -23,9 +23,15 @@
 
 .box h1 {
   text-align: center;
-  color: #da2535;
+  color: #036CA6;
   margin-bottom: 2rem;
   font-size: 3rem;
+}
+
+.box_img {
+  width: 30%;
+  margin: 0 auto;
+  padding-bottom: 1.5rem;
 }
 
 .add_task {
@@ -48,7 +54,7 @@
 .add_task button {
   border: none;
   font-size: 1rem;
-  background-color: #da2535;
+  background-color: #036CA6;
   color: #fff;
   width: 30%;
   padding: .845rem 1.25rem;
@@ -57,7 +63,7 @@
 }
 
 ::placeholder {
-  color: #da2535;
+  color: #036CA6;
   font-weight: 600;
   font-family: 'Poppins';
 }
@@ -72,7 +78,7 @@
 
 .listItem {
   background-color: #fff;
-  color: #da2535;
+  color: #036CA6;
   list-style-type: none;
   margin-top: .825rem;
   border-radius: 8px;
@@ -85,7 +91,7 @@
 
 .listItemComplete {
   text-decoration: line-through;
-  background-color: #da2535;
+  background-color: #036CA6;
   color: #fff;
   list-style-type: none;
   margin-top: .825rem;

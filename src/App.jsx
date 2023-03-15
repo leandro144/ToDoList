@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { RiDeleteBin6Line } from 'react-icons/ri';
 import { AiOutlineCheck } from 'react-icons/ai'
+import cfep from './assets/cfep.png'
 import './App.css'
 
 function App() {
@@ -56,7 +57,10 @@ return (
 <>
   <div className="container">
     <div className="box">
-      <h1>TODO LIST</h1>
+      <h1>LISTA DE TAREFAS</h1>
+      <div className="box_img">
+        <img src={cfep} alt="" />
+      </div>
       <div className="add_task">
         <input type="text" value={task} onChange={((e)=> setTask(e.target.value))} placeholder="Digite sua tarefa" />
         <button onClick={handleAddItem}>Adicionar</button>
